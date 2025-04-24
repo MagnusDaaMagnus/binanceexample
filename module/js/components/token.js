@@ -59,7 +59,7 @@ class Token extends HTMLElement{
                                     <div class="row token-btn-section">
                                         <!-- Send Button -->
                                         <div class="col-4 p-2">
-                                            <div class="token-header-btn" onclick="TokenToSend()" style="border: 2px solid rgba(250, 250, 250, 0.55)">
+                                            <div class="token-header-btn" onclick="TokenToSend()" style="border: 1.75px solid rgba(250, 250, 250, 0.55)">
                                                 <!-- link image container -->
                                                 <div class="token-header-btn-img-wrap">
                                                     <div class="token-header-btn-img">
@@ -72,7 +72,7 @@ class Token extends HTMLElement{
                                         
                                         <!-- Receive Button -->
                                         <div class="col-4 p-2">
-                                            <div class="token-header-btn" onclick="TokenToReceive()" style="border: 2px solid rgba(250, 250, 250, 0.55)">
+                                            <div class="token-header-btn" onclick="TokenToReceive()" style="border: 1.75px solid rgba(250, 250, 250, 0.55)">
                                                 <!-- link image container -->
                                                 <div class="token-header-btn-img-wrap">
                                                     <div class="token-header-btn-img">
@@ -85,7 +85,7 @@ class Token extends HTMLElement{
                                         
                                         <!-- Copy Button -->
                                         <div class="col-4 p-2">
-                                            <div class="token-header-btn" onclick="copyTokenOption()" style="border: 2px solid rgba(250, 250, 250, 0.55)">
+                                            <div class="token-header-btn" onclick="copyTokenOption()" style="border: 1.75px solid rgba(250, 250, 250, 0.55)">
                                                 <!-- link image container -->
                                                 <div class="token-header-btn-img-wrap">
                                                     <div class="token-header-btn-img" id="token-copy-btn-img">
