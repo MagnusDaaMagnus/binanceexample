@@ -108,7 +108,7 @@ class Home extends HTMLElement{
                                                 <div class="card-bottom-container">
                                                     <!-- card buttons-->
                                                     <div class="card-btns cursor" onclick="HomeToSendSelect()">
-                                                        <div class="card-btn-img-wrap">
+                                                        <div class="card-btn-img-wrap" style="border: 1.75px solid rgba(252, 212, 54, 0.55)">
                                                             <div class="card-btn-img">
                                                                 <img src="svg/cardsend.svg" class="img-fluid">
                                                             </div>
@@ -117,7 +117,7 @@ class Home extends HTMLElement{
                                                     </div>
                                                     
                                                     <div class="card-btns cursor" onclick="HomeToReceiveSelect()">
-                                                        <div class="card-btn-img-wrap">
+                                                        <div class="card-btn-img-wrap" style="border: 1.75px solid rgba(252, 212, 54, 0.55)">
                                                             <div class="card-btn-img">
                                                                 <img src="svg/cardreceive.svg" class="img-fluid">
                                                             </div>
@@ -126,7 +126,7 @@ class Home extends HTMLElement{
                                                     </div>
                                                     
                                                     <div class="card-btns cursor" onclick="HomeToConvert()">
-                                                        <div class="card-btn-img-wrap">
+                                                        <div class="card-btn-img-wrap" style="border: 1.75px solid rgba(252, 212, 54, 0.55)">
                                                             <div class="card-btn-img">
                                                                 <img src="svg/cardswap.svg" class="img-fluid">
                                                             </div>
