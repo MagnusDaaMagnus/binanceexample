@@ -23,8 +23,9 @@ class Token extends HTMLElement{
                                                 <span id="token-ccc-header-txt" class="help-header-txt page-refresh">${ CryptoLocalData[TokenPage].name } (${ CryptoLocalData[TokenPage].symbol })</span>
                                             </div>
                                             <!-- Right container-->
-                                            <div class="token-header-right-img" onclick="TokenToMarketInfo()">
-                                                <img src="svg/tokenanalytics.svg" class="img-fluid">
+                                            <div class="token-header-right-img" onclick="TokenToMarketInfo()" style="background: rgba(250, 250, 250, 0.2);border: 1.75px solid rgba(250, 250, 250, 0.55);backdrop-filter: blur(7.5px);border-radius: 0.75em;padding: 0.3em 1.2em;border-radius: 0.5em;height: auto;width: 4.3em;display: flex;flex-direction: row;">
+                                               <img src="svg/tokenanalytics.svg" class="img-fluid">
+                                               <span class="token-header-btn-txt" style="font-size: 0.85em;padding-left: 0.5em;">Info</span>
                                             </div>
                                         </div>
                                     </div>
@@ -58,7 +59,7 @@ class Token extends HTMLElement{
                                     <div class="row token-btn-section">
                                         <!-- Send Button -->
                                         <div class="col-4 p-2">
-                                            <div class="token-header-btn" onclick="TokenToSend()">
+                                            <div class="token-header-btn" onclick="TokenToSend()" style="border: 2px solid rgba(250, 250, 250, 0.55)">
                                                 <!-- link image container -->
                                                 <div class="token-header-btn-img-wrap">
                                                     <div class="token-header-btn-img">
@@ -71,7 +72,7 @@ class Token extends HTMLElement{
                                         
                                         <!-- Receive Button -->
                                         <div class="col-4 p-2">
-                                            <div class="token-header-btn" onclick="TokenToReceive()">
+                                            <div class="token-header-btn" onclick="TokenToReceive()" style="border: 2px solid rgba(250, 250, 250, 0.55)">
                                                 <!-- link image container -->
                                                 <div class="token-header-btn-img-wrap">
                                                     <div class="token-header-btn-img">
@@ -84,7 +85,7 @@ class Token extends HTMLElement{
                                         
                                         <!-- Copy Button -->
                                         <div class="col-4 p-2">
-                                            <div class="token-header-btn" onclick="copyTokenOption()">
+                                            <div class="token-header-btn" onclick="copyTokenOption()" style="border: 2px solid rgba(250, 250, 250, 0.55)">
                                                 <!-- link image container -->
                                                 <div class="token-header-btn-img-wrap">
                                                     <div class="token-header-btn-img" id="token-copy-btn-img">
