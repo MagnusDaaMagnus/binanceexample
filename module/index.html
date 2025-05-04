@@ -207,11 +207,11 @@
                         <!-- Login Account Container -->
                         <div id="card-3d-wrap-in" class="mt-5">
                             <div class="form-group">
-                                <h6>Email (use: Ben@gmail.com)</h6>
+                                <h6>Email</h6>
                                 <input type="email" onchange="getLogEmail(event)" name="logemail" class="form-style" id="logemail" autocomplete="off" required>
                             </div>	
                             <div class="form-group mt-4">
-                                <h6>Password (use: passworded)</h6>
+                                <h6>Password</h6>
                                 <input type="password" onchange="getLogPass(event)" name="logpass" class="form-style" id="logpass" autocomplete="off" required>
                             </div>
                             <h6 class="mb-0 mt-4 text-center"><a onclick="document.location.href='js/supp.html'" class="link">Forgoten your password? Contact Support</a></h6>
@@ -234,7 +234,7 @@
                                 <input type="password" onchange="getPassword(event)" id="password" name="pass" class="form-style" id="logpass" autocomplete="off" required>
                             </div>
                             <h6 class="mt-4">By creating an account, I agree to Binance's <a onclick="document.location.href='policy.html'" class="link">Terms of service and Privacy Policy</a></h6>
-                            <button class="log-btn mt-3" onclick="document.location.href='./dashboard.html'" id="sign-id-btn">Submit</button>
+                            <button class="log-btn mt-3" onclick="signUp()" id="sign-id-btn">Submit</button>
                             <h6 class="mt-4">Already have an account? <a onclick="changeToLogin()" class="link">Sign into account</a></h6>
                         </div>
                     </div>
